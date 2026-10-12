@@ -1,0 +1,2 @@
+export const BILLING_REPOSITORY = Symbol("BILLING_REPOSITORY");
+export const PAYMENT_PROVIDER = Symbol("PAYMENT_PROVIDER");

@@ -1,0 +1,1 @@
+export const CURRICULUM_FORMAT_VERSION = 1;

@@ -1,0 +1,1 @@
+export const EXERCISE_REPOSITORY = Symbol("EXERCISE_REPOSITORY");

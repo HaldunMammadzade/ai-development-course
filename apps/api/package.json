@@ -1,0 +1,44 @@
+{
+  "name": "@platform/api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsc-watch -p tsconfig.build.json --onSuccess \"node dist/main.js\"",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/main.js",
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@nestjs/common": "12.1.2",
+    "@nestjs/config": "12.0.1",
+    "@nestjs/core": "12.1.2",
+    "@nestjs/platform-express": "12.1.2",
+    "@platform/ai": "workspace:*",
+    "@platform/config": "workspace:*",
+    "@platform/curriculum": "workspace:*",
+    "@platform/database": "workspace:*",
+    "@platform/execution": "workspace:*",
+    "@platform/types": "workspace:*",
+    "@platform/validation": "workspace:*",
+    "argon2": "0.45.1",
+    "express": "5.2.1",
+    "helmet": "8.3.0",
+    "reflect-metadata": "0.2.2",
+    "rxjs": "7.8.2",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "12.1.2",
+    "@types/express": "5.0.6",
+    "@types/node": "catalog:",
+    "@types/supertest": "7.2.1",
+    "eslint": "catalog:",
+    "supertest": "7.3.1",
+    "tsc-watch": "7.2.1",
+    "typescript": "catalog:",
+    "unplugin-swc": "2.0.0",
+    "vitest": "catalog:"
+  }
+}

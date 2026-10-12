@@ -1,0 +1,1 @@
+export const PROGRESS_REPOSITORY = Symbol("PROGRESS_REPOSITORY");

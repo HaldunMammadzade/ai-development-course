@@ -1,0 +1,27 @@
+{
+  "name": "platform",
+  "private": true,
+  "packageManager": "pnpm@12.9.1",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "test": "turbo test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prisma": "pnpm --filter @platform/database exec prisma"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.5",
+    "eslint": "9.39.5",
+    "eslint-config-prettier": "10.1.8",
+    "prettier": "3.9.9",
+    "turbo": "2.11.7",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.71.1"
+  }
+}

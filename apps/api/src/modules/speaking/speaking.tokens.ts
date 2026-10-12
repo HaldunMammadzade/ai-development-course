@@ -1,0 +1,2 @@
+export const SPEAKING_REPOSITORY = Symbol("SPEAKING_REPOSITORY");
+export const SPEECH_TO_TEXT = Symbol("SPEECH_TO_TEXT");
